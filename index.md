@@ -17,5 +17,4 @@
   ```html
   <script src="../js/todolist.js" type="text/javascript" charset="utf-8"></script>
   ```
-
 ![image](https://user-images.githubusercontent.com/49929946/128953809-24046a33-1f49-4d76-8b37-4fc8ed2d1519.png)
