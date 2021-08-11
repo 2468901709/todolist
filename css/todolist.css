@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-size: 0.16rem;
+	background-color: #DCDCDC;
+}
+
+/* 头部样式 */
+.header{
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: crimson;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.1rem;
+}
+
+.header .logo{
+	height: 0.26rem;
+	font-weight: 900;
+	font-size: 0.22rem;
+	line-height: 0.32rem;
+}
+
+.header input{
+	width: 2rem;
+	height: 0.26rem;
+	border: none;
+	border-radius: 0.04rem;
+	background-color: #FFFFFF;
+	outline: none;
+	padding: 0 0.1rem;
+	font-size: 0.15rem;
+}
+
+/* 正在做样式 */
+.panel{
+	padding: 0 0.1rem;
+}
+.panel h3{
+	margin-top: 0.15rem;
+	display: flex;
+	height: 0.5rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.list .item{
+	height: 0.32rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+	margin-bottom: 0.06rem;
+	border-radius: 0.03rem;
+}
+
+.list .item::before{
+	content: "";
+	width: 0.05rem;
+	height: 0.32rem;
+	background-color: darkcyan;
+	border-bottom-left-radius: 0.03rem;
+	border-top-left-radius: 0.03rem;
+}
+
+.list .item input{
+	width: 0.22rem;
+	height: 0.22rem;
+	margin: 0 0.1rem;
+}
+
+.list .item .del{
+	width: 0.5rem;
+	height: 0.26rem;
+	line-height: 0.26rem;
+	font-size: 0.13rem;
+	text-align: center;
+	border: none;
+	background-color: darkcyan; 
+	margin: 0 0.1rem;
+	color: #FFFFFF;
+	border-radius: 0.1rem;
+}
+
+.list .item .content{
+	flex: 1;
+}
+
+.done .list .item{
+	background-color: whitesmoke;
+	-webkit-filter: grayscale(1);
+	color: #CCCCCC;
+}
+
+.done .list .item button{
+	color: #CCCCCC;
+}
