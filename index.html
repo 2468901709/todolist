@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 1-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!-- 2、引入样式 -->
+		<link rel="stylesheet" type="text/css" href="css/todolist.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 3、写结构 -->
+		<!-- 头部 -->
+		<div class="header">
+			<div class="logo">TODOLIST</div>
+			<input type="text" id="input">
+		</div>
+		<!-- 正在做 -->
+		<div class="doing panel">
+			<h3><span class="title">正在进行</span><span class="num">0</span></h3>
+			<div class="list"> 
+				<!-- <div class="item">
+					<input type="checkbox" name="" id="" value="" />
+					<span class="content">比如：烤鸡翅</span>
+					<button class="del">删除</button>
+				</div> -->
+			</div>
+		</div>
+		<!-- 已经完成 -->
+		<div class="done panel">
+			<h3><span class="title">已经完成</span><span class="num">0</span></h3>
+			<div class="list">
+				<!-- <div class="item">
+					<input checked="checked" type="checkbox" name="" id="" value="" />
+					<span class="content">比如：烤鸡翅</span>
+					<button class="del">删除</button>
+				</div> -->
+			</div>
+		</div>
+		<!-- 引入交互js -->
+		<script src="js/todolist.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
