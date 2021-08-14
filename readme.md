@@ -1,5 +1,6 @@
 # 手机端简易todolist
 ## 使用方式
+网页上查看按f12 查看手机页面
 1. 引入todolist.css样式
 
   ```html
